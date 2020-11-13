@@ -1,0 +1,15 @@
+server:
+  port: 7076
+spring:
+  application:
+    name: case
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://192.168.50.40:7075/eureka
+saman:
+  url: testajhsda
+
+consult:
+  token-service-url: http://192.168.50.40:7077/
