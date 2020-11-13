@@ -7,7 +7,7 @@ eureka:
   client:
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://192.168.50.40:7075/eureka
+      defaultZone: http://localhost:7075/eureka
 saman:
   url: testajhsda
 
