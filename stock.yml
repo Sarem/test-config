@@ -5,11 +5,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8500/eureka/
 spring:
-#  config:
-#    import: http://localhost:8888
-#  cloud:
-#    config:
-#      uri: http://localhost:8888
-  #      enabled: false
   application:
     name: stock-sarvice
